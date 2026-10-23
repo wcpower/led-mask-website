@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- LUMASK — Support page: FAQ + client-side contact form (no backend). -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#FBF4EE">
+<title>Support &amp; FAQ — LUMASK</title>
+<meta name="description" content="Shipping, returns, warranty, usage FAQs and the contact form for LUMASK. Placeholder brand site.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="index.html" aria-label="LUMASK home">LUM<span>A</span>SK</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="products.html">Shop</a>
+      <a href="how-it-works.html">The Science</a>
+      <a href="about.html">About</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-accent" href="product-pro.html">Shop the mask</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Support</p>
+      <span class="eyebrow">Support</span>
+      <h1 class="h-xl">How can we <em>help?</em></h1>
+      <p class="lede">Answers below, humans below that. Most messages get a reply within one business day — this demo form doesn’t send anything until you connect a backend.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <span class="eyebrow" style="display:block; margin-bottom:18px">Talk to us</span>
+        <h2 class="h-md">Real people,<br><em>plain answers.</em></h2>
+        <div style="margin-top: 34px; display: grid; gap: 18px">
+          <div class="feature-cell">
+            <div class="big" style="font-size: 20px; letter-spacing: .1em">EMAIL</div>
+            <p style="margin-top: 8px">hello@lumask.example — placeholder address, swap for your real inbox.</p>
+          </div>
+          <div class="feature-cell peach">
+            <div class="big" style="font-size: 20px; letter-spacing: .1em">HOURS</div>
+            <p style="margin-top: 8px">Mon–Fri, 9am–6pm (your timezone). Weekends we’re glowing offline.</p>
+          </div>
+          <div class="feature-cell">
+            <div class="big" style="font-size: 20px; letter-spacing: .1em">SHIPPING</div>
+            <p style="margin-top: 8px">Free over $99 · 3–5 business days · 30-day returns · 2-year warranty on the Pro.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+            <p class="err">Please tell us your name.</p>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" spellcheck="false" required>
+            <p class="err">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" name="message" required></textarea>
+            <p class="err">A few words, please — even “question about shipping”.</p>
+          </div>
+          <button class="btn btn-accent" type="submit" style="width: 100%; justify-content: center">Send message</button>
+          <p class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section-tint" id="faq">
+    <div class="wrap" style="max-width: 880px">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="h-lg">Everything, <em>answered.</em></h2>
+      </div>
+      <div class="accordion reveal">
+        <details>
+          <summary>How fast do you ship?</summary>
+          <div class="acc-body">Orders leave within one business day and typically arrive in 3–5 business days. Shipping is free over $99. (Placeholder policy — replace with your real carriers, regions and timeframes.)</div>
+        </details>
+        <details>
+          <summary>What’s your return policy?</summary>
+          <div class="acc-body">Thirty days from delivery, mask in any condition you’d accept a gift in — we don’t do interrogation forms. Return shipping is on us for defective units. (Placeholder policy.)</div>
+        </details>
+        <details>
+          <summary>How does the warranty work?</summary>
+          <div class="acc-body">Two years on the Pro, one year on Air and Neck: if it stops lighting, charging or holding together through normal use, we replace it. (Placeholder policy.)</div>
+        </details>
+        <details>
+          <summary>How often should I use the mask?</summary>
+          <div class="acc-body">Three to five evenings a week is the rhythm most people sustain, with a fixed ten-minute cycle each time. Consistency beats marathon sessions — see <a href="how-it-works.html" style="border-bottom:1px solid var(--accent); color:var(--accent)">The Science</a>.</div>
+        </details>
+        <details>
+          <summary>Can I use it with retinol or acids?</summary>
+          <div class="acc-body">Use the mask on clean, dry skin first, then apply your actives afterwards. If you’re on photosensitising medication or under dermatological treatment, check with your doctor first. (Placeholder guidance — have a professional review before launch.)</div>
+        </details>
+        <details>
+          <summary>Is it waterproof? Can I rinse it?</summary>
+          <div class="acc-body">The mask isn’t waterproof — wipe the shell with a barely-damp cloth and let it air dry. Never submerge it or rinse under a tap.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-dark">
+    <div class="wrap cta-band reveal">
+      <h2 class="h-lg">Still <em>curious?</em></h2>
+      <p class="lede">Send the form above — a human replies within one business day.</p>
+      <a class="btn btn-light" href="product-pro.html">Or just shop the mask</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="logo">LUM<span>A</span>SK</div>
+      <p>At-home LED light therapy, distilled to ten honest minutes. Placeholder brand — swap in your real name, copy and images.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="products.html">All devices</a></li>
+        <li><a href="product-pro.html">LUMASK Pro</a></li>
+        <li><a href="products.html#compare">Compare models</a></li>
+        <li><a href="products.html">LUMASK Air</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="how-it-works.html">The science</a></li>
+        <li><a href="how-it-works.html#protocol">The 10-min protocol</a></li>
+        <li><a href="about.html">Our story</a></li>
+        <li><a href="support.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Stay in the glow</h4>
+      <p style="font-size:14.5px">Skincare rituals, light research and quiet launches. Once a month, never more.</p>
+      <form class="newsletter" id="newsletter-form" novalidate>
+        <input type="email" placeholder="Email address" aria-label="Email address" autocomplete="email" spellcheck="false" required>
+        <button type="submit">Join</button>
+      </form>
+      <p class="newsletter-msg" role="status"></p>
+    </div>
+  </div>
+  <div class="wrap footer-legal">
+    <p>© <span data-year></span> LUMASK — placeholder brand for a design prototype. Cosmetic claims on this site refer to appearance only; this device is not intended to diagnose, treat, cure or prevent any disease.</p>
+    <span>Privacy · Terms · Shipping &amp; Returns</span>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
